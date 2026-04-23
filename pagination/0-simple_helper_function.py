@@ -1,10 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
-helper function for pagination
+Helper function for pagination
 """
+
 
 def index_range(page: int, page_size: int) -> tuple:
     """
+    Return a tuple of size two containing start and end indexes.
 
     Args:
         page (int): The current page number (1-indexed)
