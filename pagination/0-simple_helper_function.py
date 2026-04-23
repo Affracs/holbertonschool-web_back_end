@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Shelper function for pagination
+helper function for pagination
 """
 
 def index_range(page: int, page_size: int) -> tuple:
